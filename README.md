@@ -19,7 +19,7 @@ The two components occur as separate executions for the program. Indexing is pef
 
 ## Indexing
 
-The indexing process of the program relies heavily on the Lucene library for building a inverted index (term -> [docs]) and Jsoup for the parsing of the HTML content. The following is a high-level explanation of the process in order:
+The indexing process of the program relies heavily on the Lucene library for building an inverted index (term -> [docs]) and Jsoup for the parsing of the HTML content. The following is a high-level explanation of the process in order:
 
 * Provided a collection of **assumed** HTML files in a nested directory structure: webpages_raw/[0-74]/[0-499]
 * Indexing begins through the **Driver** class (app package)

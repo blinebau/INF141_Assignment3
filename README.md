@@ -62,7 +62,7 @@ The indexing process of the program relies heavily on the Lucene library for bui
 	}
 ```
 
-* **!!!Important!! This process originally generated a List of Documents for each HTML file, but the program now treats the parsed Strings as bodies of Text. Allowing for better quering techniques later. In essence, the lists are unnecessary, but were not refactored due to time**
+* **!Important! This process originally generated a List of Documents for each HTML file, but the program now treats the parsed Strings as bodies of Text (instead of tokenizing each term). Allowing for better quering techniques later. In essence, the lists are unnecessary, but were not refactored due to time**
 
 * Each of the Documents are added by the IndexWriter which eventually is added to the existing Index being generated
 

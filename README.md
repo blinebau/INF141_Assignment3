@@ -15,7 +15,7 @@ Program is broken into two key components:
 1. Indexing (Indexer package)
 2. Searching (Search package)
 
-The two components occur as separate executions for the program. Indexing is peformed separately beforehand because the collection being used is a static. After indexing is completed a separate Spring Boot application (web interface) is ran for the actual search functionality.
+The two components occur as separate executions for the program. Indexing is peformed separately beforehand because the collection being used is static. After indexing is completed a separate Spring Boot application (web interface) is ran for the actual search functionality.
 
 ## Indexing
 

@@ -23,7 +23,7 @@ The indexing process of the program relies heavily on the Lucene library for bui
 
 * Provided a collection of **assumed** HTML files in a nested directory structure: webpages_raw/[0-74]/[0-499]
 * Indexing begins through the **Driver** class (app package)
-* Uses an Indexer instance to perform a crucial step in the indexing process: **Bookkeeping**
+* Uses an Indexer (package Indexer) class instance to perform a crucial step in the indexing process: **Bookkeeping**
 * We were provided a JSON file containing information that mapped the HTML file documents to their respective hosted URLs
 * JSON Format -> "Directory/Filename" : "URL"
 * Within the **Indexer.bookkeeping()** method, the JSON file is parsed using the **javax.JSON** API. Which will basically scan through the JSON file reacting to 'events' and extracting the key (dir/fname) and value (url) from each entry
